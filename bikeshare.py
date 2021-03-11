@@ -183,13 +183,15 @@ def user_stats(df):
         print("Here is no Gender data for Washington")
 
     # TO DO: Display earliest, most recent, and most common year of birth
-
-    earliest_year = df['Birth Year'].min()
-    recent_year = df['Birth Year'].max()
-    common_year = df['Birth Year'].mode()[0]
-    print("The earliest year of birth:", earliest_year)
-    print("The most recent year of birth:", recent_year)
-    print("The most common year of birth:", common_year)
+    if 'Birth Year' in df.columns:
+        earliest_year = df['Birth Year'].min()
+        recent_year = df['Birth Year'].max()
+        common_year = df['Birth Year'].mode()[0]
+        print("The earliest year of birth:", int(earliest_year))
+        print("The most recent year of birth:", int(recent_year))
+        print("The most common year of birth:", int(common_year))
+    else:
+        print("Here is no Birth Year data for Washington")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
