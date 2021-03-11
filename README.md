@@ -18,4 +18,4 @@ In my project I used the three city datasets files:
 * washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I thank all teachers and mentors from the [Udacity school](https://wwww.udacity.com "Udacity home") who supported and inspired me during my study on the [Programming for Data Science with Python](https://https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104 "Course name") course. 
