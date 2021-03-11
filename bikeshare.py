@@ -173,12 +173,12 @@ def user_stats(df):
     # TO DO: Display counts of user types
 
     user_types = df['User Type'].value_counts()
-    print("The counts user types:", user_types)
+    print("The counts user types:", int(user_types))
 
     # TO DO: Display counts of gender
     if 'Gender' in df.columns:
         gender = df['Gender'].value_counts()
-        print("The counts of gender:", gender)
+        print("The counts of gender:", int(gender))
     else:
         print("Here is no Gender data for Washington")
 
