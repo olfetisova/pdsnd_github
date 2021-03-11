@@ -12,7 +12,10 @@ In this project I have created the  Python code to explore data related to bike 
 4. User info
 
 ### Files used
-Include the files used
+In my project I used the three city datasets files:
+* chicago.read_csv
+* new_york_city.read_csv
+* washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
