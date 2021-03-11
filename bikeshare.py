@@ -178,7 +178,7 @@ def user_stats(df):
     # TO DO: Display counts of gender
 
     gender = df['Gender'].value_counts()
-    print("The counts of gender:", gender)
+    print("The counts of gender:", int(gender))
 
     # TO DO: Display earliest, most recent, and most common year of birth
 
