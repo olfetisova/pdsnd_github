@@ -13,9 +13,9 @@ In this project I have created the  Python code to explore data related to bike 
 
 ### Files used
 In my project I used the three city datasets files:
-* chicago.read_csv
-* new_york_city.read_csv
+* chicago.csv
+* new_york_city.csv
 * washington.csv
 
 ### Credits
-I thank all teachers and mentors from the [Udacity school](https://wwww.udacity.com "Udacity home") who supported and inspired me during my study on the [Programming for Data Science with Python](https://https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104 "Course name") course. 
+I thank all teachers and mentors from the [Udacity school](https://wwww.udacity.com "Udacity home") who supported and inspired me during my study on the [Programming for Data Science with Python](https://https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104 "Course name") course.
